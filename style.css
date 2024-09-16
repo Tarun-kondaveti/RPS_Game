@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
+.rpsbuttons{
+
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+#rpsbutton{
+
+    font-size: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+
+
+}
+#endbutton{
+    border-radius: 30px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+.result{
+    font-size: large;
+    text-align: center;
+    margin:10px
+}
